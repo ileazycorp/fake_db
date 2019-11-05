@@ -1,3 +1,8 @@
+dist: xenial
+before_install:
+
+script:
+  
 deploy:
   provider: script
   script: bash ./travis_deploy.sh

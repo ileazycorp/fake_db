@@ -1,2 +1,2 @@
-echo "$SERVER_PASSWORD" | ssh "$SERVER_IP" --password-stdin
+echo "$SERVER_PASSWORD" | ssh root@68.183.230.245 --password-stdin
 mkdir test_travis

@@ -1,9 +1,10 @@
 sudo: required
+language: python
 services:
   - docker
-  
+
 before_install:
-  - gem install rake
+
 script:
 
 deploy:

@@ -1,8 +1,11 @@
-dist: xenial
+sudo: required
+services:
+  - docker
+  
 before_install:
 
 script:
-  
+
 deploy:
   provider: script
   script: bash ./travis_deploy.sh
